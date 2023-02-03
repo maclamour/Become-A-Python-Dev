@@ -40,6 +40,6 @@ def compare_versions(version1, version2):
 #         return -1 # version2 is greater
 
 
-print(compare_versions("1.5", "2.12.4.0.6")) # returns -1
+print(compare_versions("1.5", "2.12.4.0.7")) # returns -1
 print(compare_versions("1.0.0", "1.0.0")) # returns 0
 print(compare_versions("2", "2.0.0.1")) # returns 1
